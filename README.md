@@ -5,7 +5,9 @@
 **Semantic Segmentation for Desert Navigation**
 
 
-###Deployed Link :  https://visionarymindssubmission-6lubwyt7kvbwlbwitzfonh.streamlit.app
+🔗 Deployed Application:
+👉 https://visionarymindssubmission-6lubwyt7kvbwlbwitzfonh.streamlit.app
+
 ---
 ## Team Name : Visionary Minds
 
@@ -212,6 +214,7 @@ This project is created for the **Duality AI Hackathon** submission.
 Designed for robustness.
 Engineered for clarity.
 Built for real-world desert intelligence.
+
 
 
 
