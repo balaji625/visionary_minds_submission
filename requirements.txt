@@ -3,7 +3,8 @@ torch
 torchvision
 segmentation-models-pytorch
 albumentations
-opencv-python
+opencv-python-headless
 numpy
 pillow
 matplotlib
+requests
