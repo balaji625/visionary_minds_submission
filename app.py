@@ -19,12 +19,13 @@ class_names = [
     "Landscape", "Sky"
 ]
 
+import gdown
+
 def download_model():
     if not os.path.exists(MODEL_PATH):
         st.info("Downloading trained model...")
-        response = requests.get(MODEL_URL)
-        with open(MODEL_PATH, "wb") as f:
-            f.write(response.content)
+        url = "https://drive.google.com/uc?id=1JdZ7XI80wOZ2llke0kqpgqeWNmUY8WJF"
+        gdown.download(url, MODEL_PATH, quiet=False)
         st.success("Model downloaded successfully.")
 
 @st.cache_resource
