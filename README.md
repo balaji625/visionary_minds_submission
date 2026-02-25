@@ -29,11 +29,11 @@
 
 IoU is computed as:
 
-genui{"math_block_widget_always_prefetched":{"content":"IoU = TP / (TP + FP + FN)"}}
+IoU = TP / (TP + FP + FN)
 
 Mean IoU:0.6982+
 
-genui{"math_block_widget_always_prefetched":{"content":"mIoU = (1/N) \sum IoU_i"}}
+mIoU = (1/N) \sum IoU
 
 ---
 
@@ -214,6 +214,7 @@ This project is created for the **Duality AI Hackathon** submission.
 Designed for robustness.
 Engineered for clarity.
 Built for real-world desert intelligence.
+
 
 
 
